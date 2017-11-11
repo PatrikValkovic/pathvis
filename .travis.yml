@@ -13,4 +13,4 @@ smalltalk:
   
 # Disable emails
 notifications:
-email: false
+  email: false
