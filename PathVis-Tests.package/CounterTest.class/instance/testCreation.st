@@ -1,3 +1,0 @@
-tests
-testCreation
-	Counter new.
