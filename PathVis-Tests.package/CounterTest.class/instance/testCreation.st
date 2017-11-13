@@ -1,0 +1,3 @@
+tests
+testCreation
+	Counter new.
