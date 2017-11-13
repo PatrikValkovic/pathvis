@@ -8,5 +8,6 @@ baseline: spec
         version: #stable;
         repository: 'https://github.com/PatrikValkovic/pathvis' ].
     spec
-      package: 'PathVis'
+      package: 'PathVis';
+		package: 'PathVis-Tests'
 	].
