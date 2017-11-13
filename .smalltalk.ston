@@ -4,5 +4,11 @@ SmalltalkCISpec {
       #baseline : 'PathVis',
       #platforms : [ #pharo ]
     }
-  ]
+  ],
+  #testing : {
+    #packages : [ 'PathVis.*' ],
+    #coverage : {
+      #packages : [ 'PathVis.*' ]
+    }
+  }
 }
