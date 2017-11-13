@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "BaselineOf",
-	"category" : "PathVis",
+	"category" : "BaselineOfPathVis",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
