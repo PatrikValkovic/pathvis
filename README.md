@@ -4,5 +4,6 @@ Path searching algorithms visualization in pharo
 
 # Reports
 
+- 2017-11-14: Requirements gathering and approval.
 - 2017-11-13: Travis CI set with coveralls.io.
 - 2017-11-09: Meeting with team, agreement of basic concepts, will be on wiki soon.
