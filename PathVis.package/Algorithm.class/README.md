@@ -1,0 +1,1 @@
+Represent algorithm runnable in the space.
