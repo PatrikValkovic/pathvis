@@ -1,0 +1,3 @@
+tests
+testEdgeCreation
+	Edge new.

@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "NoSlotAvailable",
+	"name" : "NoSlotAvailableError",
 	"type" : "normal"
 }

@@ -1,3 +1,0 @@
-tests
-testNodeCreation
-	Node new.
