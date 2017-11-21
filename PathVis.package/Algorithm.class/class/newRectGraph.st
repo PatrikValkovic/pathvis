@@ -10,21 +10,20 @@ newRectGraph
 "
 
 	|nodes edges|
-	nodes := (1 to: 4) collect: [ :each | Node new ].
+	nodes := (1 to: 5) collect: [ :each | Node new ].
 	edges := (1 to: 4) collect: [ :each | Edge new ].
 	
-	(edges at: 1) addNode: (nodes at: 1);
-						addNode: (nodes at: 2).
+	(edges at: 1) left: (nodes at: 1);
+						right: (nodes at: 2).
 						
-	(edges at: 2) addNode: (nodes at: 2);
-						addNode: (nodes at: 3).
+	(edges at: 2) left: (nodes at: 2);
+						right: (nodes at: 3).
 						
-	(edges at: 3) addNode: (nodes at: 3);
-						addNode: (nodes at: 4).
+	(edges at: 3) left: (nodes at: 3);
+						right: (nodes at: 4).
 						
-	(edges at: 4) addNode: (nodes at: 4);
-						addNode: (nodes at: 1).		
-								
+	(edges at: 4) left: (nodes at: 4);
+						right: (nodes at: 1).		
 	^ nodes.		
 	
 	

@@ -1,3 +1,4 @@
 initialization
 initialize
-	nodes := Set new
+	left := nil.
+	right := nil.
