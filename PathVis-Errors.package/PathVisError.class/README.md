@@ -1,0 +1,1 @@
+Common error class for Package.

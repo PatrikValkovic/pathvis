@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "PathVisError",
+	"category" : "PathVis-Errors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "EdgeError",
+	"type" : "normal"
+}
