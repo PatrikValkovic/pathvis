@@ -7,9 +7,11 @@ run
 	[ stack isEmpty not and: (visited includes: to) not ]
 		whileTrue: [ 
 			node := stack pop.
-			visited add: node.
 			(visited includes: node) ifFalse: [ 
-				node edges do: [ :each | stack add: (each oppositeTo: node) ] 
-			 ].
+				node edges do: [ :aEdge | 
+					stack add: (aEdge oppositeTo: node)
+				].
+			].
+			visited add: node.
 		].
 	^ visited includes: to
