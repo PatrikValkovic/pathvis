@@ -1,4 +1,4 @@
-adding
+accessing
 oppositeTo: aNode
 	aNode = left ifTrue: [
 		^ right.

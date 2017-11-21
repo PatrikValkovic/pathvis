@@ -1,3 +1,4 @@
-adding
+setters
 addNode: aNode
-	ShouldBeImplemented signal 
+	self addNodeUnidirectional: aNode.
+	aNode addEdgeUnidirectional: self.

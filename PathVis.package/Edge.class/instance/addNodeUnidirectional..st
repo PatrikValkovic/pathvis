@@ -1,3 +1,3 @@
-adding
+setters
 addNodeUnidirectional: aNode
-	ShouldBeImplemented signal
+	self addNodeAction value: aNode

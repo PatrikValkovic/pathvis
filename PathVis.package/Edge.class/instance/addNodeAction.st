@@ -1,0 +1,6 @@
+private
+addNodeAction
+	self freeSlotName isNil
+		isTrue: [ ^ [ :_ | NoSlotAvailable signal: 'Both slots are full' ] ]
+		isFalse:
+			[ ^ [ :aNode | self perform: self freeSlotSetterName with: aNode ] ]

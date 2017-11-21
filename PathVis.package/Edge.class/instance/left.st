@@ -1,3 +1,3 @@
-adding
+accessing
 left
 	^ left.
