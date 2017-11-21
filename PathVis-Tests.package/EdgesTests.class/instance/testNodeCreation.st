@@ -1,3 +1,3 @@
 tests
 testNodeCreation
-	self assert: Node new
+	Node new.

@@ -1,3 +1,3 @@
 initialization
 initialize
-	edges := Set new
+	edges := Set new.
