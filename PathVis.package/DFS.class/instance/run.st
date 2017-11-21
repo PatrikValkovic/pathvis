@@ -4,7 +4,7 @@ run
 	stack := Stack new.
 	visited := Set new.
 	stack add: from.
-	[ stack isEmpty not and: (visited includes: to) not ]
+	[ stack isNotEmpty and: (visited includes: to) not ]
 		whileTrue: [ 
 			node := stack pop.
 			(visited includes: node) ifFalse: [ 
