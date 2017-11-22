@@ -1,1 +1,0 @@
-Represents algorithms thats search for path between tow points.
