@@ -10,8 +10,8 @@ newRectGraph
 "
 
 	|nodes edges|
-	nodes := (1 to: 5) collect: [ :each | Node new ].
-	edges := (1 to: 4) collect: [ :each | Edge new ].
+	nodes := (1 to: 5) collect: [ :each | Node newWithAutoId  ].
+	edges := (1 to: 4) collect: [ :each | Edge newWithAutoId  ].
 	
 	(edges at: 1) left: (nodes at: 1);
 						right: (nodes at: 2).

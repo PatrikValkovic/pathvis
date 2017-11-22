@@ -1,13 +1,15 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "Entity",
+	"super" : "Object",
 	"category" : "PathVis",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"current"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"edges"
+		"id"
 	],
-	"name" : "Node",
+	"name" : "Entity",
 	"type" : "normal"
 }

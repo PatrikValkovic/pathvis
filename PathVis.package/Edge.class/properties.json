@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "Object",
+	"super" : "Entity",
 	"category" : "PathVis",
 	"classinstvars" : [ ],
 	"pools" : [ ],

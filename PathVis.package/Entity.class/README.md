@@ -1,0 +1,1 @@
+Represent entity in the graph.
