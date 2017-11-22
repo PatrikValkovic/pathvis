@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "NoSpaceGenerator",
+	"category" : "PathVis",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SeparatedPointsGenerator",
+	"type" : "normal"
+}
