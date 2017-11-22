@@ -1,7 +1,7 @@
 running
 run
 	|graph alg renderer|
-	graph := Algorithm newRectGraph.
+	graph := NoSpaceGenerator rectLoop.
 	renderer := TranscriptRenderer.
-	alg := DFS from: (graph at: 1) to: (graph at: 3).
+	alg := DFS from: (graph nodes at: 1) to: (graph nodes at: 3).
 	^ alg run. 

@@ -1,6 +1,6 @@
 tests
 testRechableOnRectangle
-	|nodes alg|
-	nodes := Algorithm newRectGraph .
-	alg := DFS from: (nodes at: 1) to: (nodes at: 3).
+	|c alg|
+	c := NoSpaceGenerator rectLoop.
+	alg := DFS from: (c nodes at: 1) to: (c nodes at: 3).
 	self assert: alg run

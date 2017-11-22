@@ -1,3 +1,3 @@
 adding
 addNode: aNode
-	edges at: aNode id put: aNode.
+	nodes at: aNode id put: aNode.

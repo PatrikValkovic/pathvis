@@ -1,3 +1,3 @@
 adding
 edges
-	edges asArray.
+	^ edges asArray.

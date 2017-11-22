@@ -1,6 +1,6 @@
 tests
 testUnreachableOnRectangle
-	|nodes alg|
-	nodes := Algorithm newRectGraph .
-	alg := DFS from: (nodes at: 1) to: (nodes at: 5).
+	|c alg|
+	c := NoSpaceGenerator separatedPoints.
+	alg := DFS from: (c nodes at: 1) to: (c nodes at: 2).
 	self assert: alg run not

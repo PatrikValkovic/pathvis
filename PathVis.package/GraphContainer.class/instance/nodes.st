@@ -1,3 +1,3 @@
 adding
 nodes
-	nodes asArray.
+	^ nodes asArray.
