@@ -8,7 +8,7 @@ SmalltalkCISpec {
   #testing : {
     #packages : [ 'PathVis.*' ],
     #coverage : {
-      #packages : [ 'PathVis' ]
+      #packages : [ 'PathVis', 'PathVis-Errors', 'PathVis-External' ]
     }
   }
 }
