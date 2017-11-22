@@ -1,4 +1,4 @@
 adding
 addEdge: aEdge
 	edges add: aEdge.
-	aEdge addNodeUnidirectional: self.
+	aEdge from: self.
