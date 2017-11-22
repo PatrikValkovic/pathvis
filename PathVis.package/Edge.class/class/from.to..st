@@ -1,3 +1,3 @@
 instance creation
 from: aLeftNode to: aRightNode
-	^ self new addNode: aLeftNode; addNode: aRightNode; yourself 
+	^ self new from: aLeftNode to: aRightNode; yourself 

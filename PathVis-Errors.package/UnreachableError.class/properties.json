@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "PatrikValkovic 11/22/2017 15:39",
+	"super" : "EdgeError",
+	"category" : "PathVis-Errors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "UnreachableError",
+	"type" : "normal"
+}

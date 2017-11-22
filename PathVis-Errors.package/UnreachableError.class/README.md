@@ -1,0 +1,1 @@
+Rpresent error, when attemp find opposite node of node, that is not starting point.
