@@ -1,0 +1,3 @@
+accessing
+renderer
+	^ TranscriptRenderer new.
