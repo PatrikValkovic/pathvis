@@ -10,5 +10,6 @@ baseline: spec
     spec
       package: 'PathVis';
 		package: 'PathVis-Tests';
-		package: 'PathVis-Errors'
+		package: 'PathVis-Errors';
+		package: 'PathVis-External'
 	].
