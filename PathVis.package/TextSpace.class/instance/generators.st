@@ -1,3 +1,3 @@
 accessing
 generators
-	^ { NoSpaceGenerator new }
+	^ NoSpaceGenerator subclasses
