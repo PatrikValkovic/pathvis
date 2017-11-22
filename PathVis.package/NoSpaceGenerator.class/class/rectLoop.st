@@ -27,5 +27,5 @@ rectLoop
 						
 	(edges at: 4) from: (nodes at: 4)
 						to: (nodes at: 1).		
-	^ nodes.		
+	^ GraphContainer new addEdges: edges andNodes: nodes; yourself.	
 	

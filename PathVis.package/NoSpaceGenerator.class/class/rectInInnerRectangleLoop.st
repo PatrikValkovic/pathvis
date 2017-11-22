@@ -27,5 +27,6 @@ rectInInnerRectangleLoop
 						
 	(edges at: 4) from: (nodes at: 4)
 						to: (nodes at: 2).		
-	^ nodes.		
+	
+	^ GraphContainer new addEdges: edges andNodes: nodes; yourself.	
 	
