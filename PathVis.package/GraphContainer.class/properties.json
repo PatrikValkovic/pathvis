@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "PathVis",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"edges",
+		"nodes"
+	],
+	"name" : "GraphContainer",
+	"type" : "normal"
+}
