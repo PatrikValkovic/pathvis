@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"left",
-		"right"
+		"from",
+		"to"
 	],
 	"name" : "Edge",
 	"type" : "normal"

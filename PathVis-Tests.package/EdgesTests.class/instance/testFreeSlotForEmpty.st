@@ -2,4 +2,4 @@ tests
 testFreeSlotForEmpty
 	|e|
 	e := Edge new.
-	self assert: e freeSlotName  equals: #left. 
+	self assert: e freeSlotName  equals: #from. 

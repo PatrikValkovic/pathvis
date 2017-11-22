@@ -1,3 +1,3 @@
 accessing
 nodes
-	^ nodes asLinkedList 
+	^ { from . to }

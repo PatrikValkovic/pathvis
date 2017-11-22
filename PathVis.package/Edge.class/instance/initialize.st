@@ -1,4 +1,4 @@
 initialization
 initialize
-	left := nil.
-	right := nil.
+	from := nil.
+	to := nil.

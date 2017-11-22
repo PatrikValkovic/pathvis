@@ -1,4 +1,4 @@
 setters
-right: aNode
-	right := aNode.
+from: aNode 
+	from := aNode.
 	aNode addEdgeUnidirectional: self.

@@ -1,9 +1,9 @@
 accessing
 oppositeTo: aNode
-	aNode = left ifTrue: [
-		^ right.
+	aNode = self to ifTrue: [
+		^ self from.
 	 ].
-	aNode = right ifTrue: [ 
-		^ left.	
+	aNode = self from ifTrue: [ 
+		^ self to.	
 	 ].
 	Error signal. "TODO"

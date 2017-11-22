@@ -2,4 +2,4 @@ tests
 testEdgeAddOnEmpty
 	|e|
 	e := Edge new addNode: Node new; yourself .
-	self assert: (e left isNotNil or: e right isNotNil)
+	self assert: (e from isNotNil or: e to isNotNil)
