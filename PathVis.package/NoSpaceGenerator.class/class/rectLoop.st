@@ -1,16 +1,19 @@
-instance creation
-newRectGraph
+as yet unclassified
+rectLoop
 
-"
-0--0--1
-|     |
-3     1
-|     |
-3--2--2
-"
+
+	"
+	1--1->2
+	^     |
+	|     |
+	4     2
+	|     |
+	|     V
+	4<-3--3
+	"
 
 	|nodes edges|
-	nodes := (1 to: 5) collect: [ :each | Node newWithAutoId  ].
+	nodes := (1 to: 4) collect: [ :each | Node newWithAutoId  ].
 	edges := (1 to: 4) collect: [ :each | Edge newWithAutoId  ].
 	
 	(edges at: 1) from: (nodes at: 1)
@@ -25,5 +28,4 @@ newRectGraph
 	(edges at: 4) from: (nodes at: 4)
 						to: (nodes at: 1).		
 	^ nodes.		
-	
 	
