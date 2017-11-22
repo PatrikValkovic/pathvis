@@ -1,0 +1,3 @@
+accessing
+generators
+	^ NoSpaceGenerator subclasses.
