@@ -1,3 +1,3 @@
 preparation
-nodeInstance
+nodeClass
 	^ self injectPropsOn: Node withCall: #ownNode. 

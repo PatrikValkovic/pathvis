@@ -1,3 +1,3 @@
 preparation
-edgeInstance
+edgeClass
 	^ self injectPropsOn: Edge withCall: #ownEdge.

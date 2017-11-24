@@ -1,3 +1,3 @@
 tests
 testRunOfEngine
-	self assert: Engine new run.
+	self assert: Engine new run equals: true.
