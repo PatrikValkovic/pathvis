@@ -1,14 +1,15 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "Object",
 	"category" : "PathVis-Generators",
-	"classinstvars" : [ ],
-	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"nodeClass",
 		"edgeClass"
 	],
 	"name" : "GraphGenerator",
-	"type" : "normal"
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classtraitcomposition" : "TypesCustomizator"
 }
