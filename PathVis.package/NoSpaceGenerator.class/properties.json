@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "GraphGenerator",
-	"category" : "PathVis",
+	"category" : "PathVis-Generators",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

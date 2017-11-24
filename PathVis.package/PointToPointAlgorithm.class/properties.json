@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "Algorithm",
-	"category" : "PathVis",
+	"category" : "PathVis-Algorithms",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

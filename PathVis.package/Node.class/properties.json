@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "Entity",
-	"category" : "PathVis",
+	"category" : "PathVis-Graph",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

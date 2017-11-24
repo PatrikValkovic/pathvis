@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "PatrikValkovic 11/22/2017 22:36",
 	"super" : "NoSpaceGenerator",
-	"category" : "PathVis",
+	"category" : "PathVis-Generators",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

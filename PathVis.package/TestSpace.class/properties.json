@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "Space",
-	"category" : "PathVis",
+	"category" : "PathVis-Spaces",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
