@@ -1,11 +1,12 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "Object",
 	"category" : "PathVis-Algorithms",
-	"classinstvars" : [ ],
-	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "Algorithm",
-	"type" : "normal"
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classtraitcomposition" : "TypesCustomizator"
 }

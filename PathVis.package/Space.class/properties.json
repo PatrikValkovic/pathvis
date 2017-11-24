@@ -1,11 +1,12 @@
 {
-	"commentStamp" : "<historical>",
-	"super" : "Object",
 	"category" : "PathVis-Spaces",
-	"classinstvars" : [ ],
-	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
 	"name" : "Space",
-	"type" : "normal"
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classtraitcomposition" : "TypesCustomizator"
 }
