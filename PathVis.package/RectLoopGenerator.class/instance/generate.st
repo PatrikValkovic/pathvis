@@ -1,4 +1,4 @@
-translating
+generating
 generate
 
 
@@ -13,8 +13,8 @@ generate
 	"
 
 	|nodes edges|
-	nodes := (1 to: 4) collect: [ :each | Node newWithAutoId  ].
-	edges := (1 to: 4) collect: [ :each | Edge newWithAutoId  ].
+	nodes := (1 to: 4) collect: [ :each | self nodeClass newWithAutoId  ].
+	edges := (1 to: 4) collect: [ :each | self edgeClass newWithAutoId  ].
 	
 	(edges at: 1) from: (nodes at: 1)
 						to: (nodes at: 2).

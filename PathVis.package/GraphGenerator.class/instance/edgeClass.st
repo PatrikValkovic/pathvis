@@ -1,0 +1,3 @@
+accesing
+edgeClass
+	^ edgeClass.

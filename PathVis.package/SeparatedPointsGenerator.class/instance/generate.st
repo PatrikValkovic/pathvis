@@ -1,4 +1,4 @@
-translating
+generating
 generate
 
 
@@ -7,6 +7,6 @@ generate
 	"
 
 	|nodes|
-	nodes := (1 to: 2) collect: [ :each | Node newWithAutoId  ].
+	nodes := (1 to: 2) collect: [ :each | self nodeClass newWithAutoId  ].
 	^ GraphContainer new addNodes: nodes.
 	

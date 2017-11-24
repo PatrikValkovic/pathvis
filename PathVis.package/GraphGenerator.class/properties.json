@@ -1,12 +1,14 @@
 {
-	"category" : "PathVis-Generators",
-	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "GraphGenerator",
 	"commentStamp" : "<historical>",
 	"super" : "Object",
-	"type" : "normal",
+	"category" : "PathVis-Generators",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classtraitcomposition" : "TypesCustomizator"
+	"classvars" : [ ],
+	"instvars" : [
+		"nodeClass",
+		"edgeClass"
+	],
+	"name" : "GraphGenerator",
+	"type" : "normal"
 }
