@@ -1,7 +1,6 @@
 initialization
 initialize
-	space := TextSpace.
-	renderer := TranscriptRenderer.
+	space := TestSpace.
 	generator := RectAndInnerTriangleLoop.
 	algorithm := DFS.
 	
