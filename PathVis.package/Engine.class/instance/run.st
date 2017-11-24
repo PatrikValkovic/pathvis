@@ -1,8 +1,11 @@
 running
 run
-	|space graph alg renderer|
-	space := TestSpace new.
-	graph := (space generators at: 1) new generate.
-	renderer := space renderer.
-	alg := DFS from: (graph nodes at: 1) to: (graph nodes at: 3).
-	^ alg run. 
+	|s g a r|
+	s := self space new.
+	g := (s generators at: 1) new
+			nodeClass: self nodeClass; "TODO INJECT FROM RENDERER"
+			edgeClass: self edgeClass; "TODO INJECT FROM RENDERER"
+			generate.
+	r := s renderer new.
+	a := DFS from: (g nodes at: 1) to: (g nodes at: 4).
+	^ a run. 
