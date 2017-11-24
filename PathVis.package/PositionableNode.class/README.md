@@ -1,0 +1,1 @@
+Represent node, that have position.
