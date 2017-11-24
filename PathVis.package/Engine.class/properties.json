@@ -5,7 +5,12 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"space",
+		"renderer",
+		"algorithm",
+		"generator"
+	],
 	"name" : "Engine",
 	"type" : "normal"
 }
