@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "Notificator",
-	"category" : "PathVis-Renderers",
+	"category" : "PathVis-Spaces",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
