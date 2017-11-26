@@ -1,7 +1,10 @@
 {
 	"category" : "PathVis-Spaces",
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"renderer",
+		"notificator"
+	],
 	"name" : "Space",
 	"commentStamp" : "<historical>",
 	"super" : "Object",
