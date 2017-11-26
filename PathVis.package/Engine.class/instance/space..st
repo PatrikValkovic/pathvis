@@ -1,3 +1,3 @@
 setters
 space: aSpace
-	space := aSpace.
+	space := aSpace new.

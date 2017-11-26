@@ -1,3 +1,3 @@
 accessing
 renderer
-	^ TranscriptRenderer.
+	^ TranscriptRenderer new.

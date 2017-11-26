@@ -1,3 +1,3 @@
 accessing
 renderer
-	^ TestRenderer.
+	^ TestRenderer new.
