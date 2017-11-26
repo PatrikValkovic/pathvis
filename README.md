@@ -4,6 +4,7 @@ Path searching algorithms visualization in pharo
 
 # Reports
 
+- 2017-11-26: Developed base architecture of the app.
 - 2017-11-21: Research about GUI frameworks.
 - 2017-11-14: Requirements gathering and approval.
 - 2017-11-13: Travis CI set with coveralls.io.
