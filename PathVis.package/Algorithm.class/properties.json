@@ -1,7 +1,9 @@
 {
 	"category" : "PathVis-Algorithms",
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"notify"
+	],
 	"name" : "Algorithm",
 	"commentStamp" : "<historical>",
 	"super" : "Object",

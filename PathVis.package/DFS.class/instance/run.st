@@ -3,7 +3,7 @@ run
 	| stack visited node |
 	stack := Stack new.
 	visited := Set new.
-	stack add: from.
+	stack add: self startNode.
 	[ stack isNotEmpty and: (visited includes: to) not ]
 		whileTrue: [ 
 			node := stack pop.
