@@ -1,0 +1,1 @@
+Represent base abstract class, that will notify renderer about changes.
