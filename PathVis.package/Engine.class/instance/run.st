@@ -8,4 +8,5 @@ run
 			generate.
 	r := s renderer.		
 	a := DFS from: (g nodes at: 1) to: (g nodes at: 4).
+	a notificator: s notificator.
 	^ a run. 
