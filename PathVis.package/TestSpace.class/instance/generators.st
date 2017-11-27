@@ -1,0 +1,3 @@
+override
+generators
+	^ NoSpaceGenerator subclasses.

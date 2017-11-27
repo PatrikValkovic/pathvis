@@ -1,0 +1,12 @@
+{
+	"category" : "PathVis-Renderers",
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "Renderer",
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classtraitcomposition" : "TypesCustomizator"
+}

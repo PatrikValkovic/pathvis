@@ -1,0 +1,15 @@
+{
+	"category" : "PathVis-Generators",
+	"classvars" : [ ],
+	"instvars" : [
+		"nodeClass",
+		"edgeClass"
+	],
+	"name" : "GraphGenerator",
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classtraitcomposition" : "TypesCustomizator"
+}

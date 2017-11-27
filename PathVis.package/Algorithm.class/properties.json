@@ -1,0 +1,14 @@
+{
+	"category" : "PathVis-Algorithms",
+	"classvars" : [ ],
+	"instvars" : [
+		"notify"
+	],
+	"name" : "Algorithm",
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classtraitcomposition" : "TypesCustomizator"
+}

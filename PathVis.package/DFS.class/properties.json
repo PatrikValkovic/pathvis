@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "PointToPointAlgorithm",
+	"category" : "PathVis-Algorithms",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DFS",
+	"type" : "normal"
+}

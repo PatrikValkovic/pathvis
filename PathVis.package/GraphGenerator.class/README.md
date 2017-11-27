@@ -1,0 +1,1 @@
+Represent common class for generating graphs.

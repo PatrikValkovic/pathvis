@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "PathVis-Graph",
+	"classinstvars" : [
+		"current"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"id"
+	],
+	"name" : "Entity",
+	"type" : "normal"
+}

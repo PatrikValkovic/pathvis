@@ -1,0 +1,1 @@
+Error that occurs when working with edges.

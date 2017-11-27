@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Node",
+	"category" : "PathVis-Graph",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pos"
+	],
+	"name" : "PositionableNode",
+	"type" : "normal"
+}

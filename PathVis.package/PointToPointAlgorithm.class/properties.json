@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Algorithm",
+	"category" : "PathVis-Algorithms",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"from",
+		"to"
+	],
+	"name" : "PointToPointAlgorithm",
+	"type" : "normal"
+}

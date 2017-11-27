@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Entity",
+	"category" : "PathVis-Graph",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"edges"
+	],
+	"name" : "Node",
+	"type" : "normal"
+}

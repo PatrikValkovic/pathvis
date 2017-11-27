@@ -1,0 +1,1 @@
+Represent space, when all I/O operators will be solved via Transcript.

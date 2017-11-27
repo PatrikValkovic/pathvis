@@ -1,0 +1,1 @@
+Representing edge in Graph.

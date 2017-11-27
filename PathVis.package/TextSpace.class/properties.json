@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Space",
+	"category" : "PathVis-Spaces",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TextSpace",
+	"type" : "normal"
+}

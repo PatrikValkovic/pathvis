@@ -9,5 +9,7 @@ baseline: spec
         repository: 'https://github.com/PatrikValkovic/pathvis' ].
     spec
       package: 'PathVis';
-		package: 'PathVis-Tests'
+		package: 'PathVis-Tests';
+		package: 'PathVis-Errors';
+		package: 'PathVis-External'
 	].

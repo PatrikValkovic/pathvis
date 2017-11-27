@@ -1,0 +1,1 @@
+Represent trait, that can customize instances of Node and Edge by his own way.
