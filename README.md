@@ -7,6 +7,6 @@ Path searching algorithms visualization in pharo
 - 2017-11-26: Add [Under the Hood](https://github.com/PatrikValkovic/pathvis/wiki/Under-the-Hood) section to the wiki.
 - 2017-11-26: Developed base architecture of the app.
 - 2017-11-21: Research about GUI frameworks.
-- 2017-11-14: Requirements gathering and approval.
+- 2017-11-14: Requirements gathering and approval - visi our [Features](https://github.com/PatrikValkovic/pathvis/wiki/Features) wiki page.
 - 2017-11-13: Travis CI set with coveralls.io.
 - 2017-11-09: Meeting with team, agreement of basic concepts, will be on wiki soon.
