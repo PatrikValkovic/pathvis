@@ -3,9 +3,5 @@ menuCommandOn: aBuilder
 	<worldMenu>
 	(aBuilder item: 'PathVis' asSymbol)
 		order: 0.1;
-		action: [ 
-			|c|
-			c := Morph new.
-			c openInWindow.
-		];
+		action: [ Engine new show];
 		iconName: #smallHelpIcon. "TODO change icon"
