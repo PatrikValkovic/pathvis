@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "Papinmar 12/1/2017 20:21",
+	"super" : "Object",
+	"category" : "PathVis-External",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MenuExtension",
+	"type" : "normal"
+}
