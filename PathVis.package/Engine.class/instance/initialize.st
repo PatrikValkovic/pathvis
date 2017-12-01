@@ -1,6 +1,5 @@
 initialization
 initialize
-	space := TestSpace new.
-	generator := RectAndInnerTriangleLoop.
-	algorithm := DFS.
-	
+	self space: TestSpace;
+		  generator: RectAndInnerTriangleLoop;
+		  algorithm: DFS.
