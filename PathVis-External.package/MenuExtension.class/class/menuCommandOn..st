@@ -4,4 +4,4 @@ menuCommandOn: aBuilder
 	(aBuilder item: 'PathVis' asSymbol)
 		order: 0.1;
 		action: [ Engine new show];
-		iconName: #objects.
+		iconName: #objects. "TODO change icon"
