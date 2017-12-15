@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "BlElement",
 	"category" : "PathVis-Grid",
 	"classinstvars" : [ ],
 	"pools" : [ ],
