@@ -1,4 +1,4 @@
 accessing
 diameter
 
-	^ 32
+	^ 24
