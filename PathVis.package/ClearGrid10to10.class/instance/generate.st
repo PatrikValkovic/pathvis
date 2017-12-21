@@ -37,4 +37,6 @@ generate
 	^ GraphContainer new 
 		addNodes: nodes
 		andEdges: edges;
+		start: (nodes at: 1);
+		end: (nodes at: self gridSize * self gridSize);
 		yourself. 
