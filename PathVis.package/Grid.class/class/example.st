@@ -1,4 +1,4 @@
-accessing
+tests
 example
 	| grid |
 	grid := self withSize: 15.
@@ -11,5 +11,3 @@ example
 	
 	grid setColor: Color lightMagenta atPoint: 4@4.
 	grid showNode: 4@4.
-	
-	^ grid
