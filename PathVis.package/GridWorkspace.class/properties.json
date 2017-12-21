@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "JakubBures 12/21/2017 13:10",
+	"super" : "BlElement",
+	"category" : "PathVis-Grid",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"nodes",
+		"backgroundColor",
+		"size"
+	],
+	"name" : "GridWorkspace",
+	"type" : "normal"
+}

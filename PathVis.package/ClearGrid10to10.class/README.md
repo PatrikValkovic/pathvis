@@ -1,0 +1,1 @@
+Create clear grid where all nodes are accessible and which size is 10 to 10 nodes.

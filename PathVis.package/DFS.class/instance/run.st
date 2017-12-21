@@ -3,21 +3,21 @@ run
 	| stack visited node |
 	stack := Stack new.
 	visited := Set new.
-	self notify text: 'Add start node ', self startNode id printString, ' into stack of visi'.
-	stack add: self startNode.
+	self notify markAsFollowing: self startNode.
+	stack push: self startNode.
 	[ stack isNotEmpty and: (visited includes: self endNode) not ]
 		whileTrue: [
 			node := stack pop.
-			self notify text: 'Get node ', node id printString, ' from the stack'.
 			(visited includes: node) ifFalse: [ 
-				self notify text: 'Node ', node id printString, ' wasnt visited, so iterate throught all edges and add neighbors into stack'.
+				self notify markAsWorking:  node.
 				node edges do: [ :aEdge | 
-					self notify text: 'Add edge ' , aEdge id printString, ' into stack'.
-					stack add: (aEdge oppositeTo: node).
+					(visited includes: aEdge to) ifFalse: [ 
+						self notify markAsFollowing: aEdge to.
+						stack push: aEdge to.
+					].
 				].
 			].
-			self notify text: 'Mark node ', node id printString, ' as visited'.
+			self notify markAsVisited: node.
 			visited add: node.
 		].
-	self notify text: 'End node was visited or all nodes already visited'.
 	^ visited includes: self endNode.
