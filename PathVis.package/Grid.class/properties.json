@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "JakubBures 12/21/2017 13:10",
+	"super" : "Object",
+	"category" : "PathVis-Grid",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"space",
+		"window"
+	],
+	"name" : "Grid",
+	"type" : "normal"
+}

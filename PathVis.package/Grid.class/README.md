@@ -1,0 +1,1 @@
+Grid class creates windows with its GridSpace

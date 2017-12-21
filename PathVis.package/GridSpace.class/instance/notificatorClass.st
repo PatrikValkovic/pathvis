@@ -1,0 +1,3 @@
+abstract
+notificatorClass
+	^ GridNotificator.
