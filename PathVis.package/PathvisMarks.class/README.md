@@ -1,0 +1,1 @@
+Represent enumerators of states.

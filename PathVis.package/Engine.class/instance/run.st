@@ -10,7 +10,7 @@ run
 			generate.
 	"Prepare renderer"
 	r := s renderer.		
-	r prepare.
+	r prepare: g.
 	"Run algorithm"
 	a := DFS onGraph: g.
 	result := a 
