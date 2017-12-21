@@ -9,7 +9,8 @@
 		"menu",
 		"spaceCategory",
 		"generatorsCategory",
-		"algorithmsCategory"
+		"algorithmsCategory",
+		"controlCategory"
 	],
 	"name" : "EngineWithControlMenu",
 	"type" : "normal"
