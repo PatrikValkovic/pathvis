@@ -2,7 +2,7 @@ interface building
 createWindow
 	| windowSize |
 	
-		windowSize := (space size * GridElement diameter) + (space size * GridSpace spacing) + GridSpace spacing.
+		windowSize := (space size * GridElement diameter) + (space size * GridWorkspace spacing) + GridWorkspace spacing.
 	
 	window := BlSpace new.
 	window title: 'Pathvis - Grid'.

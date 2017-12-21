@@ -1,0 +1,3 @@
+abstract
+generators
+	^ GridSpaceGenerators allSubclasses.

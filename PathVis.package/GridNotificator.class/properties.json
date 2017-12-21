@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "Space",
+	"super" : "Notificator",
 	"category" : "PathVis-Spaces",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "GridSpace",
+	"name" : "GridNotificator",
 	"type" : "normal"
 }

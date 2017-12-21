@@ -1,1 +1,1 @@
-Functions as bloc parent element. Holds nodes and can control their color.
+Represent Grid space.
