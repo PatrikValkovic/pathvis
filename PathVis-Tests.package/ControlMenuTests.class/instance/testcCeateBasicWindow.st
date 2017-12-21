@@ -1,5 +1,5 @@
 as yet unclassified
-createBasicWindow
+testcCeateBasicWindow
 	| category1 category2 category3 categories window |
 
 	category1 := MenuCategory new.
