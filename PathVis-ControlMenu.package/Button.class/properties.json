@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "DynamicComposableModel",
+	"super" : "Object",
 	"category" : "PathVis-ControlMenu",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"categories"
+		"text",
+		"event"
 	],
-	"name" : "PathVisWindow",
+	"name" : "Button",
 	"type" : "normal"
 }

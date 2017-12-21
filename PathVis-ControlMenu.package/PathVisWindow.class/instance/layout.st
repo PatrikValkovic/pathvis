@@ -1,4 +1,4 @@
-initialization
+accessing
 layout
 	| col labelCount buttonCount |
 	col := SpecColumnLayout composed.
@@ -6,10 +6,10 @@ layout
 	labelCount := 1.
 	buttonCount := 1.
 	
-	collection do: [ :each |
+	categories do: [ :eachCategory |
 		col add: ( 'lbl_',labelCount asString ) asSymbol.
 		labelCount := labelCount + 1. 		
-		2 to: each size do: [ :i |
+		eachCategory buttonList do: [ :button |
 				col add: ( 'btn_',buttonCount asString ) asSymbol.
 				buttonCount := buttonCount + 1.
 		] .
@@ -17,5 +17,4 @@ layout
 	].
 
 	^col
-	
 	

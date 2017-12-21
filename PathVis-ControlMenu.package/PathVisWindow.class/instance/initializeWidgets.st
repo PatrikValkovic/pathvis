@@ -1,21 +1,24 @@
 initialization
 initializeWidgets
-	| labelCount buttonCount |
+| labelCount buttonCount |
+
+	self needRebuild: false.
 
 	labelCount := 1.
 	buttonCount := 1.
 	
-	collection do: [ :each |
+	categories do: [ :eachCategory |
 		| label |
 		label := self newLabel.
-		label label: ( each at: 1 ) asString.
+		label label: ( eachCategory label text ) asString.
 		self assign: label to: ( 'lbl_', labelCount asString ) asSymbol.
-		labelCount := labelCount + 1. 		
-		2 to: each size do: [ :i | | model |
-				model := self newButton.
-				model label: ( each at: i ) asString.
-				self assign: model to: ('btn_', buttonCount asString) asSymbol.
-				buttonCount := buttonCount + 1.
-		] .
-		
-	]
+		labelCount := labelCount + 1.
+		eachCategory buttonList do: [ :eachButton |
+			| button |
+			button := self newButton.
+			button label: ( eachButton text ) asString.
+			button action: eachButton event.
+			self assign: button to: ( 'btn_', buttonCount asString ) asSymbol.
+			buttonCount := buttonCount + 1.
+		].
+	].
