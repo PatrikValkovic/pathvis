@@ -1,23 +1,25 @@
 running
 run
-	|s g a r result|
+	|spce graph alg rend notif result|
 	"Create space"
-	s := self space.
+	spce := self space.
 	"Generate graph"
-	g := (self generator) new
+	graph := (self generator) new
 			nodeClass: self nodeClass;
 			edgeClass: self edgeClass;
 			generate.
 	"Prepare renderer"
-	r := s renderer.		
-	r prepare: g.
+	rend := spce renderer.		
+	rend prepare: graph.
+	"Prepare notificator"
+	notif := space notificator renderer: rend; yourself.
 	"Run algorithm"
-	a := DFS onGraph: g.
-	result := a 
-		notificator: s notificator;
+	alg := DFS onGraph: graph.
+	result := alg 
+		notificator: notif;
 		prepare;
 		run;
 		finish;
 		results.
-	r destroy.
+	rend destroy.
 	^ result.

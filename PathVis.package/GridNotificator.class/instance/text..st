@@ -1,3 +1,5 @@
 messages
 text: aText
-	Transcript show: aText, String cr.
+	Transcript 
+		open;
+		show: aText, String cr.

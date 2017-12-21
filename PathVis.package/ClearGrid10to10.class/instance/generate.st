@@ -7,7 +7,7 @@ generate
 		0 to: self gridSize - 1 do: [ :column |
 			nodes 
 				at: row * self gridSize + column + 1 
-				put: (self nodeClass newWithAutoId pos: row@column). 	
+				put: (self nodeClass newWithAutoId pos: (row+1)@(column+1)). 	
 		]
 	 ].
 	1 to: self gridSize * self gridSize do: [ :index | 
