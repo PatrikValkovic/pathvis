@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "EngineBase",
+	"category" : "PathVis",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"menu",
+		"spaceCategory",
+		"generatorsCategory",
+		"algorithmsCategory",
+		"controlCategory"
+	],
+	"name" : "EngineWithControlMenu",
+	"type" : "normal"
+}

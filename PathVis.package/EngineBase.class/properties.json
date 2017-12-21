@@ -1,11 +1,15 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "EngineWithControlMenu",
+	"super" : "Object",
 	"category" : "PathVis",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "Engine",
+	"instvars" : [
+		"space",
+		"algorithm",
+		"generator"
+	],
+	"name" : "EngineBase",
 	"type" : "normal"
 }

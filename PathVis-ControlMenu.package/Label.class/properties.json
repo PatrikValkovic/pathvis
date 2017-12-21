@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "EngineWithControlMenu",
-	"category" : "PathVis",
+	"super" : "Object",
+	"category" : "PathVis-ControlMenu",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "Engine",
+	"instvars" : [
+		"text"
+	],
+	"name" : "Label",
 	"type" : "normal"
 }

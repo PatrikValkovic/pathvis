@@ -1,0 +1,1 @@
+I am a category used only for PathVis control menu.

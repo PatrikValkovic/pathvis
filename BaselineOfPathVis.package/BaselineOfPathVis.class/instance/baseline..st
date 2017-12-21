@@ -15,5 +15,6 @@ baseline: spec
       package: 'PathVis' with: [spec requires: #('Bloc')];
 		package: 'PathVis-Tests';
 		package: 'PathVis-Errors';
-		package: 'PathVis-External'
+		package: 'PathVis-External';
+		package: 'PathVis-ControlMenu'
 	].
