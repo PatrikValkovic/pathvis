@@ -1,5 +1,5 @@
 initialization
 initialize
-	self space: TestSpace;
-		  generator: RectAndInnerTriangleLoop;
+	self space: GridSpace;
+		  generator: ClearGrid10to10;
 		  algorithm: DFS.
