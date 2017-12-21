@@ -1,7 +1,7 @@
 initialize
 withSize: aNumber
 	| grid |
-	grid := self new.
+	grid := self basicNew initialize.
 	grid space: (GridSpace withSize: aNumber).
 	grid createWindow.
 	
