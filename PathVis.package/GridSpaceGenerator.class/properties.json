@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "GraphGenerator",
+	"category" : "PathVis-Generators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GridSpaceGenerator",
+	"type" : "normal"
+}

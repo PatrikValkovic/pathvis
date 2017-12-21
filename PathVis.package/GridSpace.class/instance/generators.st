@@ -1,3 +1,3 @@
 abstract
 generators
-	^ GridSpaceGenerators allSubclasses.
+	^ GridSpaceGenerator allSubclasses.

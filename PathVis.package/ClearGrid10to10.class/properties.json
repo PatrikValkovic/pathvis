@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "GridSpaceGenerator",
+	"category" : "PathVis-Generators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ClearGrid10to10",
+	"type" : "normal"
+}
