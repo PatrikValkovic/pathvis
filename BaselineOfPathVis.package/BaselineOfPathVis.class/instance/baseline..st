@@ -9,10 +9,10 @@ baseline: spec
     spec configuration: 'PathVis' with: [
       spec
         version: #stable;
-        repository: 'https://github.com/PatrikValkovic/pathvis'; 
-		  requires: #('Bloc')].
+        repository: 'https://github.com/PatrikValkovic/pathvis'
+		].
     spec
-      package: 'PathVis';
+      package: 'PathVis' with: [spec requires: #('Bloc')];
 		package: 'PathVis-Tests';
 		package: 'PathVis-Errors';
 		package: 'PathVis-External'
