@@ -1,4 +1,4 @@
-initialization
-initialize
+running
+prepare: aData
 	Transcript clear;
 				  open.

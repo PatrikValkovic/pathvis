@@ -1,0 +1,1 @@
+Represent notficator for Text state.

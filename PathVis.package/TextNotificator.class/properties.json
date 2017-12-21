@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestNotificator",
+	"category" : "PathVis-Notificators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TextNotificator",
+	"type" : "normal"
+}

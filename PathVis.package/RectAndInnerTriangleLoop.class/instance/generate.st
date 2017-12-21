@@ -28,5 +28,9 @@ generate
 	(edges at: 4) from: (nodes at: 4)
 						to: (nodes at: 2).		
 	
-	^ GraphContainer new addEdges: edges andNodes: nodes; yourself.	
+	^ GraphContainer new 
+		addEdges: edges andNodes: nodes; 
+		start: (nodes at: 1);
+		end: (nodes at: 4);
+		yourself.	
 	
