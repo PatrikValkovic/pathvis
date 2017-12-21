@@ -15,11 +15,13 @@ run
 	notif := space notificator renderer: rend; yourself.
 	"Run algorithm"
 	alg := DFS onGraph: graph.
-	result := alg 
-		notificator: notif;
-		prepare;
-		run;
-		finish;
-		results.
-	rend destroy.
-	^ result.
+	[
+		result := alg 
+			notificator: notif;
+			prepare;
+			run;
+			finish;
+			results.
+		rend destroy.
+		"^ result."
+	] fork.

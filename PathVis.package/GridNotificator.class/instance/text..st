@@ -1,5 +1,5 @@
 messages
 text: aText
+	self step.
 	Transcript 
-		open;
 		show: aText, String cr.

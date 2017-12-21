@@ -1,5 +1,6 @@
 messages
 mark: aNode as: aMark
+	self step.
 	aMark = PathvisMarks start ifTrue: [ 
 		self renderer colorAt: aNode pos to: Color green.
 	 ].
