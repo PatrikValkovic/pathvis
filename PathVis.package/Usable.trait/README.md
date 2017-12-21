@@ -1,0 +1,1 @@
+Represent trait that say, if can be element used in the app.

@@ -1,1 +1,1 @@
-Represent engine, that cover basic workflow of the app.
+Represent top most Engine, that join all engines below.

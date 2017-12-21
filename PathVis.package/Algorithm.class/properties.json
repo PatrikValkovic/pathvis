@@ -10,5 +10,5 @@
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classtraitcomposition" : "TypesCustomizator"
+	"classtraitcomposition" : "TypesCustomizator + Usable"
 }
