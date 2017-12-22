@@ -1,3 +1,3 @@
 tests
 testRunOfEngine
-	self assert: EngineBase new run equals: true.
+	self assert: EngineBase new run class equals: EngineBase.
