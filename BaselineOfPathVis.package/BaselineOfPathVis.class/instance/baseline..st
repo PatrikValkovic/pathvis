@@ -6,11 +6,11 @@ baseline: spec
 	 spec
    		baseline: 'Bloc'
       with: [ spec repository: 'github://pharo-graphics/Bloc:pharo6.1/src' ].
-    spec configuration: 'PathVis' with: [
+    "spec configuration: 'PathVis' with: [
       spec
         version: #stable;
         repository: 'https://github.com/PatrikValkovic/pathvis'
-		].
+		]."
     spec
       package: 'PathVis' with: [spec requires: #('Bloc')];
 		package: 'PathVis-Tests';
