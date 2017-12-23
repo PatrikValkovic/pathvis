@@ -2,7 +2,8 @@
 	"category" : "PathVis-Algorithms",
 	"classvars" : [ ],
 	"instvars" : [
-		"notify"
+		"notify",
+		"graph"
 	],
 	"name" : "Algorithm",
 	"commentStamp" : "<historical>",
@@ -10,5 +11,5 @@
 	"type" : "normal",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classtraitcomposition" : "TypesCustomizator"
+	"classtraitcomposition" : "TypesCustomizator + Usable"
 }

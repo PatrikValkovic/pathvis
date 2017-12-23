@@ -1,3 +1,3 @@
 override
 generators
-	^ NoSpaceGenerator subclasses
+	^ NoSpaceGenerator allSubclasses.

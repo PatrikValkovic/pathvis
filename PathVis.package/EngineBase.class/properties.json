@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "PathVis",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"space",
+		"algorithm",
+		"generator"
+	],
+	"name" : "EngineBase",
+	"type" : "normal"
+}

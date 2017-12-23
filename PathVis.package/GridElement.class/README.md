@@ -1,0 +1,1 @@
+Represents one grid element.

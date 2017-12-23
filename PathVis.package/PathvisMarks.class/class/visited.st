@@ -1,0 +1,3 @@
+accessing
+visited
+	^ 4.

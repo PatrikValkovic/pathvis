@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "Object",
-	"category" : "PathVis-Spaces",
+	"category" : "PathVis-Notificators",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"renderer"
+	],
 	"name" : "Notificator",
 	"type" : "normal"
 }
