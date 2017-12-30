@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "Papinmar 12/29/2017 13:42",
+	"super" : "Object",
+	"category" : "PathVis-Generators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"array",
+		"size"
+	],
+	"name" : "ObstacleArray",
+	"type" : "normal"
+}
