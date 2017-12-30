@@ -2,14 +2,7 @@ generating
 generate
 	| nodes edges edge |
 	edges := OrderedCollection new.
-	nodes := Array new: self gridSize * self gridSize.
-	0 to: self gridSize - 1 do: [ :row |
-		0 to: self gridSize - 1 do: [ :column |
-			nodes 
-				at: row * self gridSize + column + 1 
-				put: (self nodeClass newWithAutoId pos: (row+1)@(column+1)). 	
-		]
-	 ].
+	nodes := self generateNodeArray.
 	1 to: self gridSize * self gridSize do: [ :index | 
 		|n| 
 		n := nodes at: index.

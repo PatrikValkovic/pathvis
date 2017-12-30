@@ -1,0 +1,1 @@
+Generates array of bostacles for grid.
