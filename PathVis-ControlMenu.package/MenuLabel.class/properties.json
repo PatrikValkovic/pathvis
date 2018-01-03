@@ -6,9 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"text",
-		"event"
+		"text"
 	],
-	"name" : "Button",
+	"name" : "MenuLabel",
 	"type" : "normal"
 }
