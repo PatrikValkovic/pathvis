@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "RandomObstaclesGrid10to10",
+	"name" : "RandomObstaclesGrid20to20",
 	"type" : "normal"
 }

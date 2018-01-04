@@ -1,1 +1,1 @@
-Generates array of bostacles for grid.
+Generates array of obstacles for grid.
