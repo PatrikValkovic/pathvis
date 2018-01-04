@@ -1,4 +1,4 @@
-initialization
+private
 canMoveAtX: aX atY: anY
 	|obs|
 	obs := 0.

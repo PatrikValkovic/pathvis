@@ -4,12 +4,10 @@ withSize: aSize
 	obsArray := self new.
 	obsArray size: aSize.
 	obsArray array: (Array new: aSize * aSize).
-	0 to: aSize - 1 do: [ :row |
-		0 to: aSize - 1 do: [ :column |
+	1 to: aSize * aSize do: [ :i |
 			obsArray array 
-				at: row * aSize + column + 1
+				at: i
 				put: false.
-		]
 	 ].
 
 	obsArray generateObstacles.

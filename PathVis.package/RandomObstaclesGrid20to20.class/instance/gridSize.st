@@ -1,3 +1,3 @@
 generating
 gridSize
-	^10.
+	^20.

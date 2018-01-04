@@ -1,8 +1,14 @@
 generating
 generate
 	| nodes edges edge obstaclesArray start end|
-	start := 1.
-	end := self gridSize * self gridSize.
+	((0 to: 1) atRandom == 0) ifTrue:[
+				start := ((1 to: 3) atRandom) * self gridSize + ((1 to: 5) atRandom) * (self gridSize / 10).
+				end := ((7 to: 9) atRandom) * self gridSize + ((5 to: 9) atRandom) * (self gridSize / 10).
+		] ifFalse:[
+				start := ((7 to: 9) atRandom) * self gridSize + ((5 to: 9) atRandom) * (self gridSize / 10).
+				end := ((1 to: 3) atRandom) * self gridSize + ((1 to: 5) atRandom) * (self gridSize / 10).
+		].
+	
 	edges := OrderedCollection new.
 	obstaclesArray := ObstacleArray withSize: self gridSize.
 	"generateObstaclesArray can put obstacle at start/end"
