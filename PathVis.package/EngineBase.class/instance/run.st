@@ -1,6 +1,12 @@
 running
 run
 	|spce graph alg rend notif result|
+	"If there is another forked process running - KILL, KILL, KILL!"
+	proc isNil
+		ifFalse:[
+			proc terminate.
+			proc := nil
+		].
 	"Create space"
 	spce := self space.
 	"Generate graph"
@@ -15,7 +21,7 @@ run
 	notif := space notificator renderer: rend; yourself.
 	"Run algorithm"
 	alg := DFS onGraph: graph.
-	[
+	proc := ([
 		result := alg 
 			notificator: notif;
 			prepare;
@@ -24,4 +30,4 @@ run
 			results.
 		rend destroy.
 		"^ result."
-	] fork.
+	] fork).

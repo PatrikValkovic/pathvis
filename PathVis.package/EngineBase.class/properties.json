@@ -8,7 +8,8 @@
 	"instvars" : [
 		"space",
 		"algorithm",
-		"generator"
+		"generator",
+		"proc"
 	],
 	"name" : "EngineBase",
 	"type" : "normal"
