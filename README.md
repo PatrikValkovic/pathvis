@@ -1,9 +1,25 @@
 # pathvis [![Build Status](https://travis-ci.org/PatrikValkovic/pathvis.svg?branch=dev)](https://travis-ci.org/PatrikValkovic/pathvis) [![Coverage Status](https://coveralls.io/repos/github/PatrikValkovic/pathvis/badge.svg?branch=dev)](https://coveralls.io/github/PatrikValkovic/pathvis?branch=dev)
 Path searching algorithms visualization in pharo
 
+# Installation
+
+  - If you don't have Bloc installed, install it using:
+```smalltalk
+Metacello new
+baseline: 'Bloc';
+repository: 'github://pharo-graphics/Bloc:pharo6.1/src';
+load: #core
+```
+  - Open Iceberg and clone this repository using https protocol (https://github.com/PatrikValkovic/pathvis.git)
+  - Inside created repository pathvis, load all PathVis packages
+  
+ # Using PathVis
+ 
+   - The world menu should contain button "PathVis" which starts the application's main GUI
 
 # Reports
 
+- 2018-1-4: Bug fixes, features checking.
 - 2017-12-21: Main menu, grid space and the engine works together.
 - 2017-12-7: Basic colorable grid added to project.
 - 2017-12-1: Added a shortcut into world menu, that will launch PathVis.
