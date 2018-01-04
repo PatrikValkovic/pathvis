@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "<historical>",
+	"commentStamp" : "DavidSkalsky 1/5/2018 00:45",
 	"super" : "Object",
 	"category" : "PathVis-ControlMenu",
 	"classinstvars" : [ ],
@@ -7,8 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"label",
-		"buttonList",
-		"slider"
+		"buttonList"
 	],
 	"name" : "MenuCategory",
 	"type" : "normal"
