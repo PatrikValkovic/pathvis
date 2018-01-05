@@ -1,3 +1,3 @@
 generating
 graphEnd
-	^(13 * self gridSize + 13).
+	^(10 * self gridSize + 11).
