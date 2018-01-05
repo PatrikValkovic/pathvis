@@ -1,0 +1,4 @@
+generators
+drawSkeletonObstacles
+	self drawFrameObstacles.
+	self drawInsideSkeletonObstacles.

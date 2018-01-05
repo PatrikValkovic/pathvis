@@ -1,0 +1,3 @@
+generating
+graphEnd
+	^1.
