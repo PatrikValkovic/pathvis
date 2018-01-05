@@ -1,1 +1,1 @@
-Generates 10 * 10 grid with random obstacles.
+Generates 20 * 20 grid with random obstacles.

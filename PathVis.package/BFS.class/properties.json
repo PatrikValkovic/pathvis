@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "papinmar 1/5/2018 01:45",
+	"super" : "PointToPointAlgorithm",
+	"category" : "PathVis-Algorithms",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BFS",
+	"type" : "normal"
+}

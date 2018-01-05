@@ -1,4 +1,4 @@
-private
+generators
 moveCheckSidesX: aX Y: anY
 	|obs|
 	obs := 0.

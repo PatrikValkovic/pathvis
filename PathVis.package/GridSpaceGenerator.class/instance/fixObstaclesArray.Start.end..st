@@ -1,4 +1,4 @@
 generating
-fixObstaclesArray: anArray Start: aStart end: anEnd
-	anArray at: aStart put: false.
-	anArray at: anEnd put: false.
+fixObstaclesArray: anObsArray Start: aStart end: anEnd
+	anObsArray array at: aStart put: false.
+	anObsArray array at: anEnd put: false.
