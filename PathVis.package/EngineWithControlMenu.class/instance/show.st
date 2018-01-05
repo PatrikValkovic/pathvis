@@ -1,6 +1,6 @@
 running
 show
-	menu := PathVisWindow on: OrderedCollection new.
+	menu := PathVisMenu on: OrderedCollection new.
 	menu addCategory: self createCategoryForControl.
 	menu addCategory: self createCategoryForSpaces.
 	menu addCategory: self createCategoryForAlgorithms.

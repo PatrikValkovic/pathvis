@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "DavidSkalsky 1/5/2018 00:43",
+	"super" : "Object",
+	"category" : "PathVis-ControlMenu",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"text",
+		"event",
+		"toggleable"
+	],
+	"name" : "MenuButton",
+	"type" : "normal"
+}

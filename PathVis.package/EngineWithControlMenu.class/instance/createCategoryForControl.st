@@ -1,10 +1,10 @@
 running
 createCategoryForControl
-	controlCategory := MenuCategory new label: (Label withText: 'Control'); yourself.
-	controlCategory addButton: (Button withText: 'run' andEvent: [self run]).
-	controlCategory addButton: (Button withText: 'stop' andEvent: [Transcript show: 'stop']).
+	controlCategory := MenuCategory new label: (MenuLabel withText: 'Control'); yourself.
+	controlCategory addButton: (MenuButton withText: 'run' andEvent: [self run] andToggleable: false).
+	controlCategory addButton: (MenuButton withText: 'stop' andEvent: [Transcript show: 'stop'] andToggleable: false).
 	controlCategory addButton: 
-		(Button withText: 'step formward' andEvent: [Transcript show: 'step forward']).
+		(MenuButton withText: 'step formward' andEvent: [Transcript show: 'step forward'] andToggleable: false).
 	"
 	controlCategory addButton: 
 		(Button withText: 'step backward' andEvent: [Transcript show: 'step backward']).

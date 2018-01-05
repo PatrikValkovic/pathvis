@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "DavidSkalsky 1/5/2018 00:52",
+	"super" : "Object",
+	"category" : "PathVis-ControlMenu",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PathVisMenuTestClass",
+	"type" : "normal"
+}

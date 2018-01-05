@@ -1,9 +1,9 @@
 running
 createCategoryForSpaces
-	spaceCategory := MenuCategory new label: (Label withText: 'Spaces'); yourself.
+	spaceCategory := MenuCategory new label: (MenuLabel withText: 'Spaces'); yourself.
 	Space availableSpaces 
 		collect: [ :each |
-			Button withText: each spaceName andEvent: [ self space: each ] 
+			MenuButton withText: each spaceName andEvent: [ self space: each ] andToggleable: true
 		]
 		thenDo: [ :each |
 			spaceCategory addButton: each.

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "DavidSkalsky 1/5/2018 00:52",
+	"super" : "DynamicComposableModel",
+	"category" : "PathVis-ControlMenu",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"categories"
+	],
+	"name" : "PathVisMenu",
+	"type" : "normal"
+}

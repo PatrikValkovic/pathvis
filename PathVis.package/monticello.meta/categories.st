@@ -1,5 +1,6 @@
 SystemOrganization addCategory: #PathVis!
 SystemOrganization addCategory: 'PathVis-Algorithms'!
+SystemOrganization addCategory: 'PathVis-ControlMenu'!
 SystemOrganization addCategory: 'PathVis-Generators'!
 SystemOrganization addCategory: 'PathVis-Graph'!
 SystemOrganization addCategory: 'PathVis-Grid'!

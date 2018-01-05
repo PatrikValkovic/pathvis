@@ -1,9 +1,9 @@
 running
 createCategoryForGenerators
-	generatorsCategory := MenuCategory new label: (Label withText: 'Generators'); yourself.
+	generatorsCategory := MenuCategory new label: (MenuLabel withText: 'Generators'); yourself.
 	self space generators
 		collect: [ :each |
-			Button withText: each className andEvent: [ self generator: each ] 
+			MenuButton withText: each className andEvent: [ self generator: each ] andToggleable: false
 		]
 		thenDo: [ :each |
 			generatorsCategory addButton: each.
