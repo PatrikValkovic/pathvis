@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "papinmar 1/5/2018 00:49",
+	"commentStamp" : "papinmar 1/5/2018 09:22",
 	"super" : "GridSpaceGenerator",
 	"category" : "PathVis-Generators",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "RandomObstaclesGrid20to20",
+	"name" : "MazeGrid15to15",
 	"type" : "normal"
 }

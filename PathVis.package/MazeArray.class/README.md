@@ -1,0 +1,1 @@
+Generates obstacle array in shape of a maze.

@@ -1,4 +1,4 @@
-private
+generators
 moveCheckCornersX: aX Y: anY
 	|obs|
 	obs := 0.

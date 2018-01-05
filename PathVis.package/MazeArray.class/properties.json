@@ -1,11 +1,11 @@
 {
-	"commentStamp" : "papinmar 1/5/2018 00:49",
-	"super" : "GridSpaceGenerator",
+	"commentStamp" : "papinmar 1/5/2018 09:09",
+	"super" : "ObstacleArray",
 	"category" : "PathVis-Generators",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "RandomObstaclesGrid20to20",
+	"name" : "MazeArray",
 	"type" : "normal"
 }
