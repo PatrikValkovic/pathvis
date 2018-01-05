@@ -2,8 +2,8 @@ generating
 generateGraphWithObstacles: anObstacleArray
 	| nodes edges edge start end|
 	((0 to: 1) atRandom == 0) ifTrue:[
-				start := ((1 to: 3) atRandom) * self gridSize + ((1 to: 5) atRandom) * (self gridSize / 10).
-				end := ((7 to: 9) atRandom) * self gridSize + ((5 to: 9) atRandom) * (self gridSize / 10).
+				start := self graphStart.
+				end := self graphEnd.
 		] ifFalse:[
 				start := ((7 to: 9) atRandom) * self gridSize + ((5 to: 9) atRandom) * (self gridSize / 10).
 				end := ((1 to: 3) atRandom) * self gridSize + ((1 to: 5) atRandom) * (self gridSize / 10).
